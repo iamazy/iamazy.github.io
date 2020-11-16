@@ -9,7 +9,7 @@ description: 说不爱嘴硬的嘴都很硬
 keywords: 技术宅
 author: iamazy
 language: zh-CN
-timezone:
+# timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -92,8 +92,8 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
+# include:
+# exclude:
 ignore:
 
 # Extensions
