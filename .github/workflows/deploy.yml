@@ -26,6 +26,6 @@ jobs:
     - name: Build and Deploy
       uses: peaceiris/actions-gh-pages@v3
       env:
-        PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./publish
