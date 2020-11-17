@@ -1,0 +1,21 @@
+[{
+	"name": "花海",
+	"artist": "周杰伦",
+	"url": "/medias/music/花海.mp3",
+	"cover": "/medias/music/魔杰座.jpg"
+}, {
+	"name": "你不是真正的快乐",
+	"artist": "五月天",
+	"url": "/medias/music/你不是真正的快乐.mp3",
+	"cover": "/medias/music/你不是真正的快乐.jpg"
+}, {
+	"name": "如果当时",
+	"artist": "许嵩",
+	"url": "/medias/music/如果当时.mp3",
+	"cover": "/medias/music/许嵩.jpg"
+},{
+	"name": "如果我们不曾相遇",
+	"artist": "五月天",
+	"url": "/medias/music/如果我们不曾相遇.mp3",
+	"cover": "/medias/music/你不是真正的快乐.jpg"
+}]
