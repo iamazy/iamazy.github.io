@@ -105,7 +105,7 @@ theme: hexo-theme-matery-1.2.2
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git://github.com:iamazy/iamazy.github.io.git
+  repo: git@github.com:iamazy/iamazy.github.io.git
   branch: main
 
 search:
