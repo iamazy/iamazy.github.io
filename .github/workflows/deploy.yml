@@ -16,6 +16,7 @@ jobs:
         submodules: true
 
     - run: npm install
+    - run: npm install hexo-asset-image --save
     
     - name: Deploy
       id: deploy
