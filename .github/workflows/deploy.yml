@@ -28,7 +28,6 @@ jobs:
     #   if: steps.cache.outputs.cache-hit != 'true'
     #   run: npm ci
     - run: npm install
-    - run: npm install hexo-cli -g
     
     # Deploy hexo blog website.
     - name: Deploy
