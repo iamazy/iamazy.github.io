@@ -26,8 +26,10 @@ jobs:
     - name: Build and Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./publish
+        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        publish_branch: gh-pages
+        publish_dir: ./publish
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
+        allow_empty_commit: true
+        cname: iamazy.github.io
