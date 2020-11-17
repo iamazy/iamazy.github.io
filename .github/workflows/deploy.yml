@@ -15,7 +15,7 @@ jobs:
       with:
         submodules: true # Checkout private submodules(themes or something else).
     
-    Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
+    # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
     - name: Cache node modules
       uses: actions/cache@v1
       id: cache
@@ -27,7 +27,7 @@ jobs:
     - name: Install Dependencies
       if: steps.cache.outputs.cache-hit != 'true'
       run: npm ci
-      
+
     - run: npm install
     
     # Deploy hexo blog website.
