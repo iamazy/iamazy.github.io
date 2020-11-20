@@ -488,7 +488,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    429
+                    435
                 </div>
                 
 
@@ -551,7 +551,8 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>其中<code>io.github.iamazy.demo.Logger</code>是第三方依赖中的注解，且第三方依赖依赖使用了这个注解</p>
-<h2 id="3-编写aop-xml文件"><a href="#3-编写aop-xml文件" class="headerlink" title="3. 编写aop.xml文件"></a>3. 编写aop.xml文件</h2><pre class="line-numbers language-xml"><code class="language-xml"><span class="token doctype">&lt;!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspect.dtd></span>
+<h2 id="3-编写aop-xml文件"><a href="#3-编写aop-xml文件" class="headerlink" title="3. 编写aop.xml文件"></a>3. 编写aop.xml文件</h2><p><code>aop.xml</code>位于<code>resources/META-INF</code>下/</p>
+<pre class="line-numbers language-xml"><code class="language-xml"><span class="token doctype">&lt;!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspect.dtd></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>aspectj</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>weaver</span> <span class="token attr-name">options</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>-verbose<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
         <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>include</span> <span class="token attr-name">within</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>io.github.iamazy.action.*<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
