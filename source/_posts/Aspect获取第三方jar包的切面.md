@@ -64,6 +64,8 @@ public class LogAspect {
 
 ## 3. 编写aop.xml文件
 
+`aop.xml`位于`resources/META-INF`下/
+
 ```xml
 <!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspect.dtd>
 <aspectj>
